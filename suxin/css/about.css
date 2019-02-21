@@ -1,0 +1,126 @@
+body,html {
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*轮播开始*/
+.chart {
+    width:100%;
+    height: 329px;
+}
+.chart img {
+    width: 100%;
+    height: 329px;
+}
+/*轮播结束*/
+/*素馨首页导航开始*/
+.suheader {
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.2);
+    position: fixed;
+    z-index: 1;
+}
+.suheader img {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    cursor: pointer;
+}
+.suheader-nav {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    /*
+    background: pink;
+    */
+}
+.suheader-nav-left {
+    width: 602px;
+    height: 100%;
+    float: right;
+    /*
+    background: orange;
+    */
+    line-height: 79px;
+    font-size: 14px;
+}
+.li{
+    color: #fff;
+}
+.li:hover{
+    color: #16b0dc;
+}
+a{
+    text-decoration: none;
+    margin: 0 13px;
+    color: #16b0dc;
+}
+/*素馨首页导航结束*/
+/*素馨花卉工作室开始*/
+.main {
+    width: 851px;
+    height: 826px;
+    padding: 30px;
+    border-bottom: 1px solid #f0f2f5;
+    margin-bottom: 20px;
+    /*background: lightgreen;*/
+    margin: 0 auto;
+}
+.workroom-bd {
+    width: 750px;
+    height: 676px;
+    padding: 30px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    margin: 0 auto;
+   /* background: lightpink;*/
+    text-align: center;
+    font-size: 16px;
+    color: #222;
+}
+.workroom-bd p{
+    padding: 10px;
+}.workroom-bd img{
+     padding: 50px;
+ }
+/*素馨花卉工作室结束*/
+/* 底部开始 */
+.footer {
+    width: 100%;
+    height: 161px;
+    padding-bottom: 20px;
+    background: #F1F1F1;
+    margin-top: 20px;
+}
+.iconfont {
+    width: 98px;
+    height: 46px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: pink;*/
+    padding: 5px 0;
+}
+.iconfont img {
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+.footer p {
+    width: 1280px;
+    height: 25px;
+    line-height: 25px;
+    color: #aaaaaa;
+    margin: 0 auto;
+    /*background: lightgreen;*/
+    text-align: center;
+}
+/* 底部结束 */

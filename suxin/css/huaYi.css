@@ -1,0 +1,186 @@
+body, html {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 头部开始 */
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: solid 1px #e4eaec;
+    box-sizing: border-box;
+}
+
+.nav-title {
+    width: 602px;
+    height: 100%;
+    /* background: green;*/
+    margin-left: 50%;
+    line-height: 79px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: #16b0dc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.li {
+    color: rgb(42, 51, 60);
+}
+
+.li:hover {
+    color: #16b0dc;
+    text-decoration: none;
+}
+
+.li1:hover {
+    text-decoration: none;
+}
+
+/* 头部结束 */
+.zheZhao {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart {
+    width: 100%;
+    height: 998px;
+    margin-top: 79px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.mid {
+    width: 50%;
+    height: 499px;
+    overflow: hidden;
+    background: #000;
+}
+.img {
+    width: 100%;
+    height: 499px;
+    background-image: url("../img/素馨花艺1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    opacity: 0.6;
+
+}
+
+.img:hover {
+    transform: scale(1.5);
+}
+
+.mid:nth-child(2) .img {
+    background-image: url("../img/素馨花艺2.jpg");
+}
+
+.mid:nth-child(3) .img {
+    background-image: url("../img/素馨花艺3.jpg");
+}
+
+.mid:nth-child(4) .img {
+    background-image: url("../img/素馨花艺4.jpg");
+}
+
+.img-font {
+    width: 160px;
+    height: 138px;
+    /*background: lightpink;*/
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    z-index: 5;
+}
+
+.font-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.font-look {
+    width: 28px;
+    height: 22px;
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid #f0f2f5;
+    cursor: pointer;
+}
+
+.font-look:hover {
+    background: #fffdfe;
+    color: #76838f;
+}
+
+/* 底部开始 */
+.footer {
+    width: 100%;
+    height: 161px;
+    padding-bottom: 20px;
+    background: #F1F1F1;
+    margin-top: 40px
+}
+
+.iconfont {
+    width: 98px;
+    height: 46px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: pink;*/
+    padding: 5px 0;
+}
+
+.iconfont img {
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.footer p {
+    width: 1280px;
+    height: 25px;
+    line-height: 25px;
+    color: #aaaaaa;
+    margin: 0 auto;
+    /*background: lightgreen;*/
+    text-align: center;
+}
+
+/* 底部结束 */
